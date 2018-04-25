@@ -1,0 +1,30 @@
+{
+  "name": "react-native-minimalist-sketch",
+  "version": "1.0.0",
+  "description": "",
+  "skpm": {
+    "main": "react-native-minimalist.sketchplugin",
+    "manifest": "src/manifest.json"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "render": "skpm-build --watch --run",
+    "render:once": "skpm-build --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "author": "Dave Hudson <dave@applification.net> (http://applification.net/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@skpm/builder": "^0.2.0",
+    "react-native-minimalist-icons": "1.0.1"
+  },
+  "dependencies": {
+    "chroma-js": "^1.2.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.4.2",
+    "react-native-minimalist": "2.3.1",
+    "react-sketchapp": "^1.0.0",
+    "react-test-renderer": "^15.4.2"
+  }
+}

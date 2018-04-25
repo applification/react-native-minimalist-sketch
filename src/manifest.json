@@ -1,0 +1,15 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "react-native-minimalist-sketch",
+      "identifier": "main",
+      "script": "./index.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": ["main"]
+  }
+}
